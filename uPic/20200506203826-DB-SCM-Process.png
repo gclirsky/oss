@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>登录 - 观澜网络</title>
+
+
+    <meta http-equiv="X-UA-Compatible" content="IE=EDGE,chrome=IE7">
+    <meta charset="UTF-8">
+    <meta id="confluence-context-path" name="confluence-context-path" content="">
+    <meta id="confluence-base-url" name="confluence-base-url" content="http://wiki.dxy.net">
+
+    <meta id="atlassian-token" name="atlassian-token" content="0d079770e02e2fd2bf00e08b38d2b1eb53609d0c">
+
+
+    <script type="text/javascript">
+        var contextPath = '';
+    </script>
+
+
+    <meta name="robots" content="noindex,nofollow">
+    <meta name="robots" content="noarchive">
+    <meta name="confluence-request-time" content="1459217227663">
+
+
+    <meta name="ajs-is-space-admin" content="">
+    <meta name="ajs-has-space-config" content="">
+    <meta name="ajs-use-keyboard-shortcuts" content="true">
+    <meta name="ajs-discovered-plugin-features" content="$discoveredList">
+    <meta name="stp-license-product-name" content="Confluence"/>
+    <meta name="stp-license-days-to-expiry" content="197"/>
+    <meta name="stp-license-is-admin" content="false"/>
+    <meta name="stp-license-should-keep-banner-hidden" content="true"/>
+    <meta name="ajs-keyboardshortcut-hash" content="b4d1334697c3158b085ff0242c2a9aa3">
+    <meta name="ajs-is-confluence-admin" content="false">
+    <meta name="ajs-connection-timeout" content="10000">
+
+
+    <meta name="ajs-context-path" content="">
+    <meta name="ajs-base-url" content="http://wiki.dxy.net">
+    <meta name="ajs-version-number" content="5.9.7">
+    <meta name="ajs-build-number" content="6214">
+    <meta name="ajs-remote-user" content="">
+    <meta name="ajs-remote-user-key" content="">
+    <meta name="ajs-remote-user-has-licensed-access" content="false">
+    <meta name="ajs-current-user-fullname" content="">
+    <meta name="ajs-current-user-avatar-url" content="">
+    <meta name="ajs-static-resource-url-prefix" content="/s/zh_CN/6214/6860359b26f1e8cc7164bebdad0e2f04c128c291.59/_">
+    <meta name="ajs-global-settings-attachment-max-size" content="50485760">
+    <meta name="ajs-user-locale" content="zh_CN">
+    <meta name="ajs-enabled-dark-features"
+          content="clc.quick.create,confluence.view.edit.transition,cql.search.screen,confluence-inline-comments-resolved,notification.plugin.api.enabled.com.atlassian.confluence.plugins.sharepage.api.ShareContentEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.mentions.api.ConfluenceMentionEvent,nps.survey.inline.dialog,confluence.efi.onboarding.new.templates,notification.plugin.api.enabled.com.atlassian.confluence.event.events.security.ForgotPasswordEvent,pdf-preview,notification.plugin.api.enabled.com.atlassian.confluence.plugins.tasklist.event.SendTaskEmailEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.page.async.PageMovedEvent,previews.sharing,previews.versions,notification.plugin.api.enabled.com.atlassian.confluence.plugins.files.notifications.event.FileContentUpdateEvent,file-annotations,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.attachment.AttachmentBatchUploadCompletedEvent,confluence.efi.onboarding.rich.space.content,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.comment.CommentCreateEvent,notification.plugin.api.enabled.com.atlassian.confluence.efi.emails.events.OnboardingLessUsersEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.files.notifications.event.FileContentRemoveEvent,confluence.wrap.macro,atlassian.aui.raphael.disabled,previews.conversion-service,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.comment.CommentUpdateEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.follow.FollowEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.page.async.PageEditedEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.blogpost.BlogPostCreateEvent,previews.trigger-all-file-types,notification.plugin.api.enabled.com.atlassian.confluence.plugins.inlinecomments.events.InlineCommentResolveEvent,notification.plugin.api.enabled.com.atlassian.confluence.event.events.like.LikeCreatedEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.inlinecomments.events.InlineCommentCreateEvent,previews.sharing.pushstate,confluence-inline-comments-rich-editor,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.blogpost.BlogPostUpdateEvent,file-annotations.likes,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.page.async.PageCreatedEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.files.notifications.event.FileContentMentionUpdateEvent,notification.plugin.api.enabled.com.atlassian.confluence.efi.emails.events.OnboardingNoSpaceCreatedEvent,notification.plugin.api.enabled.com.atlassian.confluence.plugins.hipchat.api.events.HipChatUserMapped,notification.plugin.api.enabled.com.atlassian.confluence.plugins.sharepage.api.ShareAttachmentEvent,confluence-inline-comments,quick-reload-inline-comments-flags,confluence-inline-comments-dangling-comment,notification.plugin.api.enabled.com.atlassian.confluence.event.events.content.blogpost.BlogPostMovedEvent">
+    <meta name="ajs-atl-token" content="0d079770e02e2fd2bf00e08b38d2b1eb53609d0c">
+    <meta name="ajs-confluence-flavour" content="VANILLA">
+    <meta name="ajs-user-date-pattern" content="yyyy-M-d">
+    <meta name="ajs-date.format" content="MMM dd, yyyy">
+
+    <link rel="shortcut icon" href="/s/zh_CN/6214/6860359b26f1e8cc7164bebdad0e2f04c128c291.59/_/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/s/zh_CN/6214/6860359b26f1e8cc7164bebdad0e2f04c128c291.59/_/favicon.ico">
+
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch/osd.action" title="观澜网络"/>
+
+    <script>
+        window.WRM = window.WRM || {};
+        window.WRM._unparsedData = window.WRM._unparsedData || {};
+        WRM._unparsedData["com.atlassian.plugins.atlassian-plugins-webresource-rest:web-resource-manager.resource-base-url-pattern"] = "\"(?:(?:/s/.*?/_)?/download)\"";
+        WRM._unparsedData["com.atlassian.confluence.plugins.confluence-license-banner:confluence-license-banner-resources.license-details"] = "{\"daysBeforeLicenseExpiry\":0,\"daysBeforeMaintenanceExpiry\":0,\"showLicenseExpiryBanner\":false,\"showMaintenanceExpiryBanner\":false,\"renewUrl\":null,\"salesEmail\":null}";
+        WRM._unparsedData["com.atlassian.plugins.atlassian-plugins-webresource-plugin:context-path.context-path"] = "\"\"";
+        WRM._unparsedData["com.atlassian.plugins.atlassian-nps-plugin:nps-acknowledgement-resources.analytics-enabled-data-provider"] = "\"true\"";
+        WRM._unparsedData["com.atlassian.plugins.atlassian-nps-plugin:nps-acknowledgement-resources.sen-data-provider"] = "\"SEN-5935250\"";
+        WRM._unparsedData["com.atlassian.confluence.plugins.confluence-feature-discovery-plugin:confluence-feature-discovery-plugin-resources.test-mode"] = "false";
+        WRM._unparsedData["com.atlassian.plugins.atlassian-nps-plugin:atlassian-nps-plugin-resources.is-server-instance-data-provider"] = "true";
+        WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common.applinks-context"] = "{\"hostApplication\":{\"id\":\"609c59bd-0f25-31f1-857b-61ea700526fe\",\"type\":\"confluence\"}}";
+        WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common.applinks-features"] = "{\"BITBUCKET_REBRAND\":true,\"V3_UI_OPT_IN\":false,\"V3_UI\":false}";
+        WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-common.applinks-discovered-features"] = "[]";
+        WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-util-js.applinks-context"] = "{\"hostApplication\":{\"id\":\"609c59bd-0f25-31f1-857b-61ea700526fe\",\"type\":\"confluence\"}}";
+        WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-util-js.applinks-features"] = "{\"BITBUCKET_REBRAND\":true,\"V3_UI_OPT_IN\":false,\"V3_UI\":false}";
+        WRM._unparsedData["com.atlassian.applinks.applinks-plugin:applinks-util-js.applinks-discovered-features"] = "[]";
+        WRM._unparsedData["com.atlassian.plugins.browser.metrics.browser-metrics-plugin:browser-metrics.feature-data-provider-legacy"] = "true";
+    </script>
+    <link type="text/css" rel="stylesheet"
+          href="/s/0db1193ade855d2febe4d16d5d44e249-CDN/zh_CN/6214/6860359b26f1e8cc7164bebdad0e2f04c128c291.59/31/_/download/superbatch/css/batch.css"
+          media="all">
+    <!--[if lt IE 9]>
+    <link type="text/css" rel="stylesheet"
+          href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/zh_CN/6214/6860359b26f1e8cc7164bebdad0e2f04c128c291.59/31/_/download/superbatch/css/batch.css?conditionalComment=lt+IE+9"
+          media="all">
+    <![endif]-->
+    <!--[if lte IE 9]>
+    <link type="text/css" rel="stylesheet"
+          href="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/zh_CN/6214/6860359b26f1e8cc7164bebdad0e2f04c128c291.59/31/_/download/superbatch/css/batch.css?conditionalComment=lte+IE+9"
+          media="all">
+    <![endif]-->
+    <link type="text/css" rel="stylesheet"
+          href="/s/bfa2f3f04ca5a6969166e8d298646476-CDN/zh_CN/6214/6860359b26f1e8cc7164bebdad0e2f04c128c291.59/fc00898c818ab95b0de619370ec34007/_/download/contextbatch/css/main,atl.general/batch.css?custom-site-logo=true"
+          media="all">
+    <link type="text/css" rel="stylesheet"
+          href="/s/7e14a1c82fa22270331f40b831a3cc42-CDN/zh_CN/6214/6860359b26f1e8cc7164bebdad0e2f04c128c291.59/97dc6390d588612f887919b07575c554/_/download/contextbatch/css/login/batch.css"
+          media="all">
+    <!--[if lte IE 9]>
+    <link type="text/css" rel="stylesheet"
+          href="/s/7e14a1c82fa22270331f40b831a3cc42-CDN/zh_CN/6214/6860359b26f1e8cc7164bebdad0e2f04c128c291.59/97dc6390d588612f887919b07575c554/_/download/contextbatch/css/login/batch.css?conditionalComment=lte+IE+9"
+          media="all">
+    <![endif]-->
+    <script type="text/javascript"
+            src="/s/f5daa5a3d429fd03a13e702fed8365fb-CDN/zh_CN/6214/6860359b26f1e8cc7164bebdad0e2f04c128c291.59/31/_/download/superbatch/js/batch.js?atlassian.aui.raphael.disabled=true&amp;locale=zh-CN"></script>
+    <script type="text/javascript"
+            src="/s/a825bc95a711f276e42d2c5e2619cb67-CDN/zh_CN/6214/6860359b26f1e8cc7164bebdad0e2f04c128c291.59/fc00898c818ab95b0de619370ec34007/_/download/contextbatch/js/main,atl.general/batch.js?analytics-uploadable=true&amp;nps-acknowledged=true&amp;analytics-enabled=true&amp;locale=zh-CN&amp;is-server-instance=true&amp;hostenabled=true"></script>
+    <script type="text/javascript"
+            src="/s/336fbff3af7f9736cc848001e32dd2f1-CDN/zh_CN/6214/6860359b26f1e8cc7164bebdad0e2f04c128c291.59/1.0/_/download/batch/confluence.web.resources:login/confluence.web.resources:login.js?locale=zh-CN"></script>
+    <script type="text/javascript"
+            src="/s/d41d8cd98f00b204e9800998ecf8427e-CDN/zh_CN/6214/6860359b26f1e8cc7164bebdad0e2f04c128c291.59/1.0/_/download/batch/confluence.web.resources:signup/confluence.web.resources:signup.js"></script>
+
+
+    <meta name="stp-license-product-name" content="Confluence"/>
+    <meta name="stp-license-days-to-expiry" content="197"/>
+    <meta name="stp-license-is-admin" content="false"/>
+    <meta name="stp-license-should-keep-banner-hidden" content="true"/>
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <!-- start iPhone styles 0.0.9-->
+    <link rel="stylesheet"
+          href="/confluence/s/1636/41/_/download/resources/com.atlassian.confluence.plugins.iphone/small-device.css"
+          type="text/css"/>
+    <script type="text/javascript"
+            src="/confluence/s/1636/41/_/download/resources/com.atlassian.confluence.plugins.iphone/iphone.js"></script>
+    <link rel="apple-touch-icon"
+          href="/confluence/s/1636/41/_/download/resources/com.atlassian.confluence.plugins.iphone/apple-touch.png"/>
+    <meta name="viewport" content="initial-scale = 1.0"/>
+    <!-- end iPhone styles -->
+
+
+</head>
+
+<body id="com-atlassian-confluence" class="theme-documentation login aui-layout aui-theme-default">
+
+
+<div id='stp-licenseStatus-banner'></div>
+<div id="page">
+    <div id="full-height-container">
+        <div id="header-precursor">
+            <div class="cell">
+                <!-- start iPhone javascripts -->
+                <script type="text/javascript">
+                    if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+                        addLoadEvent(function () {
+                            setTimeout(hideAddressBar, 0);
+                        });
+                    }</script>
+                <!-- end iPhone javascripts -->
+
+            </div>
+        </div>
+
+
+        <header id="header" role="banner">
+            <nav class="aui-header aui-dropdown2-trigger-group" role="navigation">
+                <div class="aui-header-inner">
+                    <div class="aui-header-before"><a class=" aui-dropdown2-trigger app-switcher-trigger"
+                                                      aria-owns="app-switcher" aria-controls="app-switcher"
+                                                      aria-haspopup="true" data-aui-trigger href="#app-switcher"><span
+                            class="aui-icon aui-icon-small aui-iconfont-appswitcher">已链接程序</span></a>
+
+                        <div id="app-switcher" class="aui-dropdown2 aui-style-default">
+                            <div class="app-switcher-loading">正在运行&hellip;</div>
+                        </div>
+                        <script>
+                            (function (NL) {
+                                var initialise = function () {
+                                    // For some milestones of AUI, the atlassian soy namespace was renamed to aui. Handle that here by ensuring that window.atlassian is defined.
+                                    window.atlassian = window.atlassian || window.aui;
+                                    new NL.AppSwitcher({
+                                        dropdownContents: '#app-switcher'
+                                    });
+                                };
+                                if (NL.AppSwitcher) {
+                                    initialise();
+                                } else {
+                                    NL.onInit = initialise;
+                                }
+                            }(window.NL = (window.NL || {})));
+                            window.NL.environment = {
+                                isUserAdmin: false,
+                                isAppSuggestionAvailable: false,
+                                isSiteAdminUser: false
+                            };</script>
+                    </div>
+                    <div class="aui-header-primary"><h1 id="logo" class="aui-header-logo aui-header-logo-custom"><a
+                            href="/"><img
+                            src="/download/attachments/425986/atl.site.logo?version=1&amp;modificationDate=1445778719000&amp;api=v2"
+                            alt="观澜网络"/></a></h1>
+                        <ul class="aui-nav">
+                            <li class="aui-buttons">
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="aui-header-secondary">
+                        <ul class="aui-nav">
+                            <li>
+
+                                <a id="help-menu-link" class="aui-nav-link aui-dropdown2-trigger" href="#"
+                                   aria-haspopup="true" aria-owns="help-menu-link-content" title="帮助">
+                                    <span class="aui-icon aui-icon-small aui-iconfont-help">帮助</span>
+                                </a>
+                                <nav id="help-menu-link-content" class="aui-dropdown2 aui-style-default"
+                                     aria-hidden="true">
+                                    <div class="aui-dropdown2-section">
+                                        <ul id="help-menu-link-leading" class="aui-list-truncate section-leading first">
+                                            <li>
+
+
+                                                <a id="confluence-help-link"
+                                                   href="https://docs.atlassian.com/confluence/docs-59/Getting+Help+And+Support"
+                                                   class="    " title="访问Confluence文档首页" target="_blank"
+                                                        >
+                                                    在线帮助
+                                                </a>
+                                            </li>
+                                            <li>
+
+
+                                                <a id="keyboard-shortcuts-link" href="#" class="    "
+                                                   title="查看可用的键盘快捷方式">
+                                                    快捷键
+                                                </a>
+                                            </li>
+                                            <li>
+
+
+                                                <a id="feed-builder-link" href="/dashboard/configurerssfeed.action"
+                                                   class="    " title="创建个性化的 RSS源。">
+                                                    RSS源建立器
+                                                </a>
+                                            </li>
+                                            <li>
+
+
+                                                <a id="whats-new-menu-link"
+                                                   href="https://confluence.atlassian.com/display/DOC/Confluence+5.9+Release+Notes"
+                                                   class="    " title="">
+                                                    新功能
+                                                </a>
+                                            </li>
+                                            <li>
+
+
+                                                <a id="gadget-directory-link" href="#"
+                                                   class="   user-item administration-link " title="浏览小工具">
+                                                    可用的小工具
+                                                </a>
+                                            </li>
+                                            <li>
+
+
+                                                <a id="confluence-about-link" href="/aboutconfluencepage.action"
+                                                   class="    " title="获取关于Confluence的更多信息">
+                                                    关于Confluence
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </nav>
+
+                            </li>
+                            <li>
+
+
+                            </li>
+                            <li>
+
+                            </li>
+                            <li>
+                            <li>
+
+
+                                <a id="login-link" href="/login.action" class="   user-item login-link " title="">
+                                    登录
+                                </a>
+                            </li>
+                            <li>
+
+
+                                <a id="signup-link" href="/signup.action" class="   user-item signup-link " title="">
+                                    注册
+                                </a>
+                            </li>
+
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- .aui-header-inner--></nav>
+            <!-- .aui-header -->
+            <br class="clear">
+        </header>
+
+        <!-- \#header -->
+
+
+        <div id="main" class=" aui-page-panel">
+    <div id="sidebar-container">
+    </div>
+    <!-- \#sidebar-container -->
+
+    <script>
+        AJS.$('#com-atlassian-confluence.login h1').addClass('unified-header');
+    </script>
+
+    <div id="login-container" class="unified-container">
+        <div class="login-section unified">
+
+            <form name="loginform" method="POST" action="/dologin.action" class="aui login-form-container">
+                <input type="hidden" name="key" value=""/>
+                                    <h2>登录</h2>
+                
+                
+                <div id="action-messages">
+                </div>
+                <fieldset class="compact-form-fields">
+
+                    <legend class="assistive"><span>登录到 Confluence</span></legend>
+
+                    <div class="field-group ">
+                        <label id="os_username-label" for="os_username">
+                            <u>U</u>用户名
+                        </label>
+
+                        <input type="text" name="os_username" id="os_username" class="text   " placeholder="用户名"
+                               data-focus="0"/>
+                    </div>
+
+                    <div class="field-group">
+                        <label id="os_password-label" for="os_password">
+                            <u>P</u>密码
+                        </label>
+                        <input type="password" name="os_password" id="os_password" class="password " placeholder="密码"/>
+                    </div>
+
+                    
+                                            <div class="group">
+                            <div class="checkbox">
+                                <input type="checkbox" class="checkbox" value="true" name="os_cookie" id="os_cookie">
+                                <label for="os_cookie"><u>R</u>记住我的登录信息</label>
+                            </div>
+                        </div>
+                                        <div class="field-group form-buttons compact-form-buttons">
+                        <input id="loginButton" class="aui-button aui-style aui-button-primary" name="login"
+                               type="submit" value="登录"/>
+                        <a id="forgot-password" class="aui-button aui-style aui-button-link"
+                           href="/forgotuserpassword.action">忘记密码</a>
+                    </div>
+                    <input type="hidden" name="os_destination" value="/download/attachments/177120773/DB-SCM-Process.png?version=1&amp;modificationDate=1583560784000&amp;api=v2"/>
+                </fieldset>
+                <div id="signupMessage">
+                    <p>还没有用户名和密码？<a href='/signup.action'>在这里注册</a>. </p>
+                </div>
+
+                                    <div>
+                        <p><a href="/qrlogin.action?done=/download/attachments/177120773/DB-SCM-Process.png?version=1&amp;modificationDate=1583560784000&amp;api=v2">扫码登录</a></p>
+                    </div>
+                
+            </form>
+        </div>
+    </div>
+
+
+</div><!-- \#main -->
+        <div id="footer" role="contentinfo">
+            <section class="footer-body">
+
+
+
+
+
+
+            </section>
+        </div>
+
+    </div>
+    <!-- \#full-height-container -->
+</div>
+<!-- \#page -->
+</body>
+</html>
